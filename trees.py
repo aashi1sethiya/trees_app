@@ -8,7 +8,7 @@ st.title('SF Trees')
 st.write("""This app analyzes trees in San Francisco using
 a dataset kindly provided by SF DPW""")
 
-trees_df = pd.read_csv('trees_app/trees.csv')
+trees_df = pd.read_csv('trees.csv')
 
 st.write(trees_df)
 
